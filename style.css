@@ -1,0 +1,212 @@
+/* reset*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+a{
+  text-decoration: none;
+}
+a:visited{
+  color: black;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*layout*/
+
+body {
+  background-color: white;
+  font-family: helvetica;
+}
+
+/*nav*/
+
+.nav {
+  max-width: 100%;
+  height: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav>img {
+  height: 2.5em;
+  padding-left: 2em;
+}
+
+.menu-nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1em;
+  padding-right: 2em;
+}
+
+/* Imagen gigante */
+
+.txt-img-gr {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.txt-gr {
+  font-weight: bold;
+  font-size: 3em;
+  padding-bottom: 1em;
+}
+
+.txt-sm {
+  font-size: 1.5em;
+  margin: 0.5em;
+}
+
+.contenedor {
+  background-image: url("https://factoriaf5.s3.eu-west-3.amazonaws.com/talleres/spotify/landing.jpg");
+  height: 40em;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/*main*/
+
+main {
+  height: 26em;
+}
+  
+main>h3 {
+  display:flex;
+  justify-content: center;
+  margin-top: 1em;
+  font-size: 2em;
+  text-underline-offset: 0.32em;
+  text-decoration: underline rgb(26,177,106);
+}
+
+main>ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+main>ul>li>img {
+  height: 4em;
+}
+
+main>ul>li>p {
+  font-size: 1.1em;
+  margin-bottom: 0.5em;
+}
+main>ul>li>h4 {
+  color: rgb(33,181,131);
+  font-weight: bold;
+  font-size: 1.4em;
+  text-underline-offset: 0.32em;
+  margin-top: 0.56em;
+  margin-bottom: 1em;
+}
+
+main>ul>li {
+  text-align: center;
+  margin-top: 6em;
+}
+
+/*section 1*/
+
+.sct-1 {
+  background-color: rgb(26,177,106);
+  height: 44em;
+  margin: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+} 
+.spt-cen {
+  max-width: 12em; 
+}
+.spotify-sct {
+  position: absolute; 
+}
+
+.sct-1a>h3 {
+  font-size: 2.5em;
+  ont-weight: bold;
+  text-underline-offset: 0.32em;
+  text-decoration: underline;
+  margin-bottom: 1em;
+}
+
+.sct-1a {
+  display:flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 27%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.tit-fin {
+  font-weight: bold;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  font-size: 1.5em;
+}
+
+.sct-1a p {
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+}
+
+.imgr-s {
+   position: absolute;
+  top: 54%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+}
+
+.imgr {
+  max-width: 18em;
+}
